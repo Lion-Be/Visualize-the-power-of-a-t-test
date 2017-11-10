@@ -84,7 +84,7 @@ t.power.simulation <- function(n.s1, mean.s1, sd.s1, n.s2, mean.s2, sd.s2, alpha
   options(scipen = 999)
   
   # Specifying output list
-  output <- list("Group Configurations in Population"=table.1, "Simulation Configurations and Power Estimate"=table.2, "Histogram of P-Values (see plot)"=histo.p, "Histogram of T-Statistics (see plot)"= histo.t)
+  output <- list("Group Configurations in Population"=table.1, "Simulation Configurations and Power Estimate"=table.2)
   
   # Displaying output list
   output
